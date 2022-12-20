@@ -204,7 +204,7 @@ services:
     image: systementry-7568
     container_name: systementry-7568
     ports: 
-      - 8039:8039
+      - 8042:8042
     env_file: .env
     depends_on:
       - mongo
@@ -220,7 +220,7 @@ services:
     image: systementry-7568
     container_name: systementry-7568
     ports: 
-      - 8039:8039
+      - 8042:8042
     env_file: .env
     depends_on:
       - mongo
@@ -236,7 +236,7 @@ services:
     image: systementry-7568
     container_name: systementry-7568
     ports: 
-      - 8039:8039
+      - 8042:8042
     env_file: .env
     depends_on:
       - mongo

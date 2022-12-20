@@ -5,7 +5,7 @@ import * as mongoose from 'mongoose';
 import * as cors from 'cors';
 import { WinstonLogger } from './config/WinstonLogger';
 import { SCMService } from './apiservices/systemcredentialsmanager';
-const PORT = 8039;
+const PORT = 8042;
 
 class App {
 

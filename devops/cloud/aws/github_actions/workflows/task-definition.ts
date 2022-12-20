@@ -70,9 +70,9 @@ module.exports = {
             ],
             "environmentFiles": null,
             "environment": [{"name":"MONGO_DB_URL","value":"mongodb://admin:password@127.0.0.1:27017/ssotest_7568?authSource=admin"},{"name":"MONGO_DOMAIN","value":"127.0.0.1"},{"name":"SECURITYURL","value":"http://127.0.0.1:8003"},{"name":"AUTHPROXYURL","value":"http://127.0.0.1:8001"},{"name":"ADMINURL","value":"http://127.0.0.1:8004"},{"name":"GCAMURL","value":"http://127.0.0.1:8007"},{"name":"APIGATEWAY","value":"http://127.0.0.1:8000"},{"name":"SYSTEMCREDENTIALMANAGERURL","value":"http://127.0.0.1:8005"}
-            ,{"name":"SYSTEMENTRYURL","value":"http://127.0.0.1:8039"}
-            ,{"name":"SYSTEMENTRYURL","value":"http://127.0.0.1:8039"}
-            ,{"name":"SYSTEMENTRYURL","value":"http://127.0.0.1:8039"}
+            ,{"name":"SYSTEMENTRYURL","value":"http://127.0.0.1:8042"}
+            ,{"name":"SYSTEMENTRYURL","value":"http://127.0.0.1:8042"}
+            ,{"name":"SYSTEMENTRYURL","value":"http://127.0.0.1:8042"}
             ],
             "secrets": null,
             "mountPoints": [
@@ -294,9 +294,9 @@ module.exports = {
             ],
             "environmentFiles": null,
             "environment": [{"name":"MONGO_DB_URL","value":"mongodb://admin:password@127.0.0.1:27017/ssotest_7568?authSource=admin"},{"name":"MONGO_DOMAIN","value":"127.0.0.1"},{"name":"SECURITYURL","value":"http://127.0.0.1:8003"},{"name":"AUTHPROXYURL","value":"http://127.0.0.1:8001"},{"name":"ADMINURL","value":"http://127.0.0.1:8004"},{"name":"GCAMURL","value":"http://127.0.0.1:8007"},{"name":"APIGATEWAY","value":"http://127.0.0.1:8000"}
-            ,{"name":"SYSTEMENTRYURL","value":"http://127.0.0.1:8039"}
-            ,{"name":"SYSTEMENTRYURL","value":"http://127.0.0.1:8039"}
-            ,{"name":"SYSTEMENTRYURL","value":"http://127.0.0.1:8039"}
+            ,{"name":"SYSTEMENTRYURL","value":"http://127.0.0.1:8042"}
+            ,{"name":"SYSTEMENTRYURL","value":"http://127.0.0.1:8042"}
+            ,{"name":"SYSTEMENTRYURL","value":"http://127.0.0.1:8042"}
             ],
             "mountPoints": [
                 {
@@ -377,9 +377,9 @@ module.exports = {
             "essential": true,
             "portMappings": [
                 {
-                    "containerPort": "8039",
+                    "containerPort": "8042",
                     "protocol": "tcp",
-                    "hostPort": "8039"
+                    "hostPort": "8042"
                 }
             ],
             "environmentFiles": null,
@@ -421,9 +421,9 @@ module.exports = {
             "essential": true,
             "portMappings": [
                 {
-                    "containerPort": "8039",
+                    "containerPort": "8042",
                     "protocol": "tcp",
-                    "hostPort": "8039"
+                    "hostPort": "8042"
                 }
             ],
             "environmentFiles": null,
@@ -465,9 +465,9 @@ module.exports = {
             "essential": true,
             "portMappings": [
                 {
-                    "containerPort": "8039",
+                    "containerPort": "8042",
                     "protocol": "tcp",
-                    "hostPort": "8039"
+                    "hostPort": "8042"
                 }
             ],
             "environmentFiles": null,

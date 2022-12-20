@@ -54,20 +54,20 @@ service:
   systementry: 
     name: systementry
     type: NodePort
-    port: 8039
-    targetPort: 8039
+    port: 8042
+    targetPort: 8042
 
   systementry: 
     name: systementry
     type: NodePort
-    port: 8039
-    targetPort: 8039
+    port: 8042
+    targetPort: 8042
 
   systementry: 
     name: systementry
     type: NodePort
-    port: 8039
-    targetPort: 8039
+    port: 8042
+    targetPort: 8042
 
 
 deployment:
